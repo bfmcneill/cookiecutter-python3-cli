@@ -1,0 +1,1 @@
+cookiecutter . --no-input --overwrite-if-exists

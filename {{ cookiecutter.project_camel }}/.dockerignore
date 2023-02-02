@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# But not these directories
+!./bin
+!./config
+!./notebooks
+!./sql
+!./src/{{ cookiecutter.project_camel }}
+!./Pipfile
+!./setup.py

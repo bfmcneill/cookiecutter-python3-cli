@@ -1,0 +1,10 @@
+{
+  "project_name": "new_py_proj",
+  "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '-')|replace('_', '-') }}",
+  "project_camel": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_') }}",
+  "description": "my new proj desc",
+  "python_version": "3.11",
+  "author_name": "Eibert Alstein",
+  "email": "{{ cookiecutter.author_name.lower()|replace(' ', '-') }}@example.com",
+  "version": "0.1.0"
+}

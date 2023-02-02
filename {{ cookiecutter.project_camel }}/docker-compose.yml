@@ -1,0 +1,7 @@
+version: '3.7'
+
+services:
+  cli:
+    build: .
+    image: '{{ cookiecutter.project_slug }}:{{ cookiecutter.version }}'
+    command: /bin/bash
