@@ -4,6 +4,7 @@
 # But not these directories
 !./bin
 !./config
+# ./data needs to be mounted - not built into the image
 !./notebooks
 !./sql
 !./src/{{ cookiecutter.project_camel }}
