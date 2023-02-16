@@ -7,7 +7,7 @@ name = "pypi"
 click = "*"
 loguru = "*"
 dynaconf = "*"
-new-py-proj = {editable = true, path = "."}
+{{ cookiecutter.project_camel }} = {editable = true, path = "."}
 
 [dev-packages]
 black = "*"
