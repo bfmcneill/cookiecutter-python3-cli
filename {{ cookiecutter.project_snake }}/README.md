@@ -1,5 +1,12 @@
-# {{ cookiecutter.project_camel }}
+# {{ cookiecutter.project_snake }}
 
+## getting started
+
+```
+pipenv install --dev
+pipenv run pcmd
+pipenv run pytest -v --tb=no
+```
 
 ## docker
 
@@ -21,7 +28,7 @@ $ /usr/local/bin/python
 ```bash
 pipenv shell
 which python
-~/.local/share/virtualenvs/code-qa-Xg4J_/bin/python
+~/.local/share/virtualenvs/{{ cookiecutter.project_snake }}-venv/bin/python
 ```
 
 ### environment variables

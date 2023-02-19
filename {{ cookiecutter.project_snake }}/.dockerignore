@@ -7,6 +7,6 @@
 # ./data needs to be mounted - not built into the image
 !./notebooks
 !./sql
-!./src/{{ cookiecutter.project_camel }}
+!./src/{{ cookiecutter.project_snake }}
 !./Pipfile
 !./setup.py
